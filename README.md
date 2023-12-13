@@ -3,7 +3,7 @@
 ## Introduction
 
 Natural oligosaccharides and aminoglycosides are vital sources of new drug candidates, particularly antibiotics. In the past, discovering novel (pseudo-)saccharides was both time-consuming and expensive. However, with the rapid growth of high-throughput data, such as genomic and mass spectrometry datasets, there has been a surge in opportunities for natural saccharide discovery. Yet, due to the intricate biosynthesis pathways of saccharides, no existing method can predict their structures with precision. To address this, we introduce Seq2Saccharide, a tool designed to automate natural saccharide discovery by integrating both genomic and mass spectrometry data. To enhance accuracy, Seq2Sachrraride predicts hundreds or thousands of putative structures for each gene cluster, and then the correct structure is identified among these predictions using a mass spectral database search.
-![Screenshot](figure/neomycinB_fig9_total.png)
+![Screenshot](figure/strepomycin.png)
 
 ## Pre-request
 Seq2Saccharide is implemented with Python 3.7.
