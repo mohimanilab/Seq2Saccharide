@@ -1,0 +1,10 @@
+epi_dephosphorylation
+C-O-C-bridge
+methylene-bridge
+D-glucosamine_N-acetylglucosamine_glucose_dehydroxylation
+D-glucosamine_N-acetylglucosamine_glucose_dehydroxylation2
+D-olivose_adddichloroisoeverninic_OH
+D-glucosamine_N-acetylglucosamine_glucose_2,3-dehydration
+N-acetylglucosamine_deacetylation
+kanosamine_methylation 
+2-deoxystreptamine_acetylation

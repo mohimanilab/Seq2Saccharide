@@ -1,0 +1,33 @@
+D-ribose N-acetylglucosamine
+D-glucosamine 2-deoxystreptamine
+2-deoxy-D-evalose D-fucose
+L-lyxose D-fucose
+N-acetylglucosamine 2-deoxystreptamine
+valienone 4-amino-4,6-dideoxy-D-glucose
+D-glucose 2-deoxystreptamine
+D-glucose 2,7DAOct
+D-glucose D-glucose
+kanosamine 2-deoxystreptamine
+4-carboxyformimidoyl-kasugamine myo-inositol
+2,7DAOct 2-deoxystreptamine
+2-deoxystreptamine D-ribose
+2-deoxystreptamine D-glucosamine
+2-deoxystreptamine D-glucose
+D-glucosamine scyllo-inosamine
+4-amino-4,6-dideoxy-D-glucose D-glucose
+2-deoxystreptamine D-xylose
+D-fucose D-mannose
+streptidine 5'-hydrostreptose
+D-olivose D-olivose
+5'-hydrostreptose N-methyl-glucosamine
+streptidine streptose
+streptose N-methyl-glucosamine
+p-hydroxymandelonitrile D-glucose
+5-dehydro-L-fucofuranose 3,4-dihydroxy-α-methylcinnamic acid
+3,4-dihydroxy-α-methylcinnamic acid 2L-2-amino-2-deoxy-neo-inositol
+2-deoxystreptamine kanosamine
+actinospectose actinamine
+D-mannose L-lyxose
+D-olivose 2-deoxy-D-evalose
+N-acetylglucosamine D-mannose
+N-acetylglucosamine 2-deoxy-scyllo-inosamine
