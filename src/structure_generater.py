@@ -36,6 +36,7 @@ class structure_generater:
     self.bond = bond
     self.primary_opt = primary_opt
     self.set_num = set_num
+    self.primary_mod_file = primary_mod_file
     self.BGC = BGC(mode, out_files, BGC_file, gene_length)
     self.annotator = BGC_annotator(self.primary_metabolite, self.BGC.BGC_name, mode, primary_mod_file, out_files, monomer_hmm_cutoff, modification_hmm_cutoff, path_monomer_hmm_folder, path_modification_hmm_folder)
 
@@ -194,7 +195,7 @@ class structure_generater:
 
     for filename in filelist:
         train_BGC = BGC("run", self.out_files, os.path.join(self.train_BGC_dir, filename), self.gene_length)
-        train_BGC_annotator = BGC_annotator(self.primary_metabolite, train_BGC.BGC_name, "run", self.out_files, monomer_hmm_cutoff, modification_hmm_cutoff, path_monomer_hmm_folder, path_modification_hmm_folder)
+        train_BGC_annotator = BGC_annotator(self.primary_metabolite, train_BGC.BGC_name, "run", self.primary_mod_file, self.out_files, monomer_hmm_cutoff, modification_hmm_cutoff, path_monomer_hmm_folder, path_modification_hmm_folder)
         partitioned_filename = filename.partition(".")
         BGC_id = partitioned_filename[0]
         matched_hmm = list(train_BGC_annotator.matched_monomer_gene.keys())

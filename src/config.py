@@ -6,6 +6,7 @@ parser.add_argument('--mode', default="run", choices=["run", "debug"], help='cho
 parser.add_argument('--BGC', required=True, help='path of sequence fasta file to be searched.')
 parser.add_argument('--if_spec', default=False, help='if include mass spectrum analysis.')
 parser.add_argument('--mass_spec', help='path of the mass spectra file.')
+parser.add_argument('--mass_error', type=float, default=0.01, help='Tolerance in the predicted structure mass error, only needed in spectrum search.')
 parser.add_argument("--prob", help='path of the probability json file used for mass spectra.')
 parser.add_argument('--model', choices=["Fisher", "MLE"], default="Fisher", help='path of the mass spectra file.')
 parser.add_argument('--mon_cutoff', default="../data/monomer_hmm_cutoff.csv", help='path of monomer hmmsearch cutoff csv file.')

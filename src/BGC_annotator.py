@@ -31,7 +31,7 @@ class BGC_annotator:
         self.matched_modificaion_gene, self.result_modification_path = self.hmm_search("modification", path_modification_hmm_folder)
         self.generated_monomers = self.find_monomers()  # return a dictionary, where the key is the monomer name and the value is hmm used for pathways.
         print("matched monomer hmm:", self.matched_monomer_gene)
-        print("modification hmm: ", self.matched_modificaion_gene)
+        print("matched modification hmm: ", self.matched_modificaion_gene)
         print("generated monomers: ", list(self.generated_monomers.keys()))
 
         if mode == "run":
