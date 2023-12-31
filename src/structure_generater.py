@@ -633,6 +633,7 @@ class structure_generater:
       non_aromatic_smiles = Chem.MolToSmiles(mol, kekuleSmiles=True)
       filename = os.path.join(self.out_files, str(self.mod_depth) + os.path.basename(self.BGCfile) + self.model + "_modification_results.txt")
       command = "singularity run {} core2pks  -c '{}' -d {} -m {} -o 20 >> {}".format(self.mod_sif, non_aromatic_smiles, str(self.mod_depth), search_string, filename)
+      print(command)
       os.system(command)
 
     with open(os.path.join(self.out_files, str(self.mod_depth) + os.path.basename(self.BGCfile) + self.model + "_modification_results.txt")) as f:

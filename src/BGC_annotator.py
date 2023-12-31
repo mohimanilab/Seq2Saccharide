@@ -109,11 +109,11 @@ class BGC_annotator:
             output_file_name = os.path.join(path, self.BGC + "_" + str(hmm) + ".txt")
 
             if if_threshold:
-                os.system("/home/yanjing2/aminoglycoside/hmmer/src/./hmmsearch --cut_ga " + os.path.join(folder_path, str(
+                os.system("hmmsearch --cut_ga " + os.path.join(folder_path, str(
                     hmm)) + " " + self.protseq_file_name + " > " + output_file_name)
             else:
                 os.system(
-                    "/home/yanjing2/aminoglycoside/hmmer/src/./hmmsearch " + os.path.join(folder_path, str(hmm)) + " " + self.protseq_file_name + " > " + output_file_name)
+                    "hmmsearch " + os.path.join(folder_path, str(hmm)) + " " + self.protseq_file_name + " > " + output_file_name)
 
             handle = open(output_file_name)
             qresults = SearchIO.parse(handle, "hmmer3-text")
