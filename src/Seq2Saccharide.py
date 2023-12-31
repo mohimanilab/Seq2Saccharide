@@ -11,6 +11,9 @@ if args.if_spec:
         raise Exception("Please give both the mass spectrum data and probability json file for analysis.")
     else:
         args.mod_sif = os.path.abspath(args.mod_sif)
+        args.mass_spec = os.path.abspath(args.mass_spec)
+        args.prob = os.path.abspath(args.prob)
+
         command = "singularity run -B {},{} {} dereplicator_plus score --fragments {} --database {} --spectra-files {} -P {} > {}_outputs.txt".format(args.mod_sif, args.mass_spec, args.mod_sif, args.prob, os.path.join(args.out_files, "{}_{}_{}_compound_database.csv".format(args.bond, args.mod_depth, os.path.basename(args.BGC))), args.mass_spec, args.mass_error, os.path.basename(args.BGC))
         print(command)
         os.system(command)
